@@ -1,0 +1,27 @@
+body {
+  font-family: Source Han Sans VF, Atkinson Hyperlegible, sans-serif;
+}
+
+.eventsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+  margin: 2em;
+}
+
+.eventContainer {
+  display: grid;
+}
+.eventContainer img {
+  max-width: 100%;
+}
+
+.startDate {
+  color: green;
+}
+
+.endDate {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
