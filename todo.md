@@ -10,5 +10,6 @@
 - grey out or hide past events (as an option)
 - general code cleanup (ongoing)
 - maybe set up a placeholder image for events I don't have the banner for
+- font options, actual font imports, default system font stack fallback
 
 Note: As this is a casual fan-project, these things may or may not be done. The list is also not necessarily in order or priority.
