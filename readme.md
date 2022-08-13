@@ -6,6 +6,8 @@ Dates in the future are *speculation* and subject to change. In no way is this a
 
 All future event dates are programatically generated.
 
+Note that if image links are dead toward the bottom of the page, that's because I don't have those images yet.
+
 ---
 
 Also see:
