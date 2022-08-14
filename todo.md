@@ -12,5 +12,6 @@
 - maybe set up a placeholder image for events I don't have the banner for
 - font options, actual font imports, default system font stack fallback
 - add google translate option for the jp event titles
+- link to readme and/or repo generally from the live site
 
 Note: As this is a casual fan-project, these things may or may not be done. The list is also not necessarily in order or priority.
