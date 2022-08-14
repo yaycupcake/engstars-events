@@ -6,7 +6,7 @@ This is a fan project for predicting the English version of the game Ensemble St
 
 Dates in the future are *speculation* and subject to change. In no way is this a reflection of officially announced dates, aside from past events.
 
-All future event dates are programatically generated.
+All future event dates are programatically generated, based on a prediction of events starting on every other Saturday, and running through the follow week's Sunday.
 
 Note that if image links are dead toward the bottom of the page, that's because I don't have those images yet.
 
