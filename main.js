@@ -1,5 +1,10 @@
 import dataAdder from './dataAdder.js'
-import { calcStartDate, calcEndDate, calcNewEventDates } from './utils.js'
+import {
+  calcStartDate,
+  calcEndDate,
+  calcNewEventDates,
+  googleTranslateElementInit,
+} from './utils.js'
 import { getNewEventList } from './newEventList.js'
 
 const timezone = 'UTC'
@@ -92,3 +97,8 @@ for (const event in events) {
 
   eventContainerParent.appendChild(eventContainer)
 }
+
+const gtl = d.createElement('div')
+gtl.setAttribute('id', 'google_translate_element')
+body.appendChild(gtl)
+googleTranslateElementInit()

@@ -33,3 +33,10 @@ export function calcNewEventDates(seedDate, newEvents) {
     prevDate = addDays(prevDate, 14)
   }
 }
+
+export function googleTranslateElementInit() {
+  new google.translate.TranslateElement(
+    { pageLanguage: 'ja' },
+    'google_translate_element'
+  )
+}

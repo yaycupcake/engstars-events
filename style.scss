@@ -2,6 +2,13 @@ body {
   font-family: Source Han Sans VF, Atkinson Hyperlegible, sans-serif
 }
 
+#google_translate_element,
+#gtl {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
 .eventsContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
