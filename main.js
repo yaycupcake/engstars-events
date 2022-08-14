@@ -78,16 +78,16 @@ for (const event in events) {
 
   const startDateDisplay = d.createElement('span')
   startDateDisplay.classList.add('startDate')
-  startDateDisplay.textContent = moment
+  startDateDisplay.textContent = `Start: ${moment
     .tz(events[event].startDate, locale)
-    .format(dateFormat)
+    .format(dateFormat)}`
   eventContainer.appendChild(startDateDisplay)
 
   const endDateDisplay = d.createElement('span')
   endDateDisplay.classList.add('endDate')
-  endDateDisplay.textContent = moment
+  endDateDisplay.textContent = `End: ${moment
     .tz(events[event].endDate, locale)
-    .format(dateFormat)
+    .format(dateFormat)}`
   eventContainer.appendChild(endDateDisplay)
 
   eventContainerParent.appendChild(eventContainer)
