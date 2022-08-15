@@ -1,19 +1,32 @@
+:root {
+  --page-padding: 1em;
+  --grid-gap: 2em;
+}
+@media screen and (max-width: 600px) {
+  :root {
+    --page-padding: .5em;
+    --grid-gap: 1em;
+  }
+}
+
 body {
   font-family: Source Han Sans VF, Atkinson Hyperlegible, sans-serif;
+  padding: var(--page-padding);
 }
 
 #google_translate_element,
 #gtl {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: var(--page-padding);
+  right: var(--page-padding);
 }
 
 .eventsContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2em;
-  margin: 2em;
+  gap: var(--grid-gap);
+  margin: var(--grid-gap);
+  margin-top: 2em;
   word-break: break-word;
 }
 @media screen and (max-width: 600px) {
