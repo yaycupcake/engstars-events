@@ -16,7 +16,7 @@ function eventNameAdder(events) {
   events.tempest.nameJP = '春雷＊謳歌のテンペスト'
   events.tempest.nameEN = 'Thunder in Spring* Praise of Tempest'
   events.conquest.nameJP = '軋轢◆内なるコンクエスト'
-  events.conquest.nameEN = ''
+  events.conquest.nameEN = 'Discord◆Internal Conquest'
   events.nightClub.nameJP = '召しませ／ナイトクラブ'
   events.nightClub.nameEN = ''
   events.highTouch.nameJP = '再開＊成長見せてハイタッチ！'
