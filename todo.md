@@ -13,5 +13,6 @@
 - font options, actual font imports, default system font stack fallback
 - ~~add google translate option for the jp event titles~~ done
 - link to readme and/or repo generally from the live site
+- adustments to improve view for larger viewports (more columns and/or better formatting within each grid cell)
 
 Note: As this is a casual fan-project, these things may or may not be done. The list is also not necessarily in order or priority.
