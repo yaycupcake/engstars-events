@@ -123,6 +123,8 @@ function eventNameAdder(events) {
   events.sunshine.nameEN = ''
   events.sportsFes.nameJP = '激闘夢ノ咲／存在示す体育祭！'
   events.sportsFes.nameEN = ''
+  events.danceFight.nameJP = 'SHUFFLE×烈火の舞闘祭'
+  events.danceFight.nameEN = ''
 }
 
 function eventImageAdder(events) {
@@ -242,6 +244,8 @@ function eventImageAdder(events) {
     './chapter-banner/banners/chapter_campaign_rectangle1_22000057.png'
   events.sportsFes.imgPath =
     './chapter-banner/banners/chapter_campaign_rectangle1_21000015.png'
+  events.danceFight.imgPath =
+    './chapter-banner/banners/chapter_campaign_rectangle1_.png'
 }
 
 export default dataAdder

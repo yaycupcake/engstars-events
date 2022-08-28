@@ -57,5 +57,6 @@ export function getNewEventList() {
     'cruise',
     'sunshine',
     'sportsFes',
+    'danceFight',
   ]
 }
