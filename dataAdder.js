@@ -18,7 +18,7 @@ function eventNameAdder(events) {
   events.conquest.nameJP = '軋轢◆内なるコンクエスト'
   events.conquest.nameEN = 'Discord◆Internal Conquest'
   events.nightClub.nameJP = '召しませ／ナイトクラブ'
-  events.nightClub.nameEN = ''
+  events.nightClub.nameEN = 'Welcome / Night Club'
   events.highTouch.nameJP = '再開＊成長見せてハイタッチ！'
   events.highTouch.nameEN = ''
   events.successionMatch.nameJP = '温故知新／継承の御前試合'
